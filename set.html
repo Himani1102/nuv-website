@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>ABOUT US</title>
+    </head>
+    <body>
+        <header>
+            <h1>ABOUT NAVRACHNA UNIVERSITY </h1>
+            <link rel="stylesheet" href="n.css">
+        </header>
+        <nav>
+           
+        <a href="index.html"> HOME </a>
+        <a href="about.html"> ABOUT US</a>
+        <a href="school.html"> SCHOOLS</a>
+        <a href="contact.html"> CONTACT US</a>
+        <a href="ADMISSION.HTML">ADMISSION</a>
+        </nav>
+        
+            <li class="course-item">
+                <h2 class="course-title">Computer Science and Engineering</h2>
+                <p class="course-description">
+                    This course covers programming, algorithms, data structures, artificial intelligence, and software development. Graduates are prepared for careers in software engineering, data science, and more.
+                </p>
+                <p class="course-duration"><strong>Duration:</strong> 4 years</p>
+                <p class="course-eligibility"><strong>Eligibility:</strong> 10+2 with Physics, Chemistry, and Mathematics</p>
+                
+             
+                <button onclick="showTimetable()">Show Timetable for CSE Second Semester</button>
+                
+          
+                <div id="timetable">
+                    <h3>CSE Second Semester Timetable</h3>
+                    <table>
+                        <tr>
+                            <th>Day</th>
+                            <th>9:00 - 10:00</th>
+                            <th>10:00 - 11:00</th>
+                            <th>11:00 - 12:00</th>
+                            <th>12:00 - 1:00</th>
+                            <th>1:00 - 2:00</th>
+                            <th>2:00 - 3:00</th>
+                            <th>3:00 - 4:00</th>
+                        </tr>
+                        <tr>
+                            <td>Monday</td>
+                            <td>Maths</td>
+                            <td>Physics</td>
+                            <td>Chemistry</td>
+                            <td>Lunch</td>
+                            <td>Programming</td>
+                            <td>Lab</td>
+                            <td>Lab</td>
+                        </tr>
+                        <tr>
+                            <td>Tuesday</td>
+                            <td>Physics</td>
+                            <td>Maths</td>
+                            <td>Chemistry</td>
+                            <td>Lunch</td>
+                            <td>Programming</td>
+                            <td>Lab</td>
+                            <td>Lab</td>
+                        </tr>
+                  
+                    </table>
+                </div>
+            </li>
+        </main>
+       
+    
+        <script>
+           
+            function showTimetable() {
+                var timetable = document.getElementById("timetable");
+                if (timetable.style.display === "none") {
+                    timetable.style.display = "block";
+                } else {
+                    timetable.style.display = "none";
+                }
+            }
+        </script>
+    </body>
+    </html>
+
+        </main>
+        <footer>
+            <p>&copy; 2025 NAVRACHANA UNIVERSITY .All rights reserved. </p>
+        </footer>    
+    </body>
+</html>
